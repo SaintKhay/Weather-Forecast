@@ -1,0 +1,135 @@
+@media (max-width: 64em) {
+  .primary-heading {
+    font-size: 4rem;
+  }
+  .location {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .date-time {
+    font-size: 1.4rem;
+  }
+  .sub-head {
+    padding: 2rem;
+  }
+  select {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .hourly-forecast {
+    font-size: 1rem;
+  }
+  .side-container {
+    padding: 2rem;
+  }
+  .side-sub-container {
+    align-items: center;
+  }
+
+  .aside-time {
+    font-size: 1.2rem;
+  }
+  .aside-sub-container li {
+    margin-bottom: 1rem;
+  }
+  .hourly-weather {
+    width: 30%;
+  }
+}
+@media (max-width: 52em) {
+  .heading {
+    width: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .hourly-forecast {
+    font-size: 2.4rem;
+  }
+  .hourly-weather {
+    width: 15%;
+  }
+  .side-container {
+    padding: 3rem;
+  }
+  .aside-time,
+  .aside-temp {
+    font-size: 2rem;
+  }
+  .aside-sub-container li {
+    padding: 0rem 3rem;
+  }
+}
+
+@media (max-width: 27em) {
+  body {
+    padding: 2rem;
+  }
+  .grid {
+    padding: 2rem 0;
+  }
+
+  .heading {
+    padding: 5rem 2rem;
+  }
+  .primary-heading {
+    font-size: 5.8rem;
+    line-height: 1.2;
+    padding-bottom: 4rem;
+  }
+
+  .main-display div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-display {
+    justify-content: center;
+  }
+  .display-weather {
+    width: 47%;
+    justify-self: start;
+  }
+
+  .location {
+    font-size: 4rem;
+  }
+  .date-time {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .search-box {
+    display: block;
+    width: 100%;
+  }
+  #searchInput {
+    padding: 1rem 4rem;
+    margin-bottom: 1rem;
+  }
+  .search-btn {
+    width: 100%;
+    padding: 1rem 4rem;
+  }
+
+  .sub-header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .forecast-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hourly-forecast {
+    font-size: 1.4rem;
+  }
+  .side-container {
+    padding: 2rem;
+  }
+  .aside-time,
+  .aside-temp {
+    font-size: 1rem;
+  }
+  .aside-sub-container li {
+    padding: 0rem 1rem;
+  }
+}
